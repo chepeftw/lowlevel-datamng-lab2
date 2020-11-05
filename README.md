@@ -13,17 +13,17 @@ You may use any data structure of your choice to represent the availability of p
 
 Implement the following API for obtaining and releasing a pid:
 ```c
-int allocate_ map (void)
+int allocate_map (void)
 ```
 - Creates and initializes a data structure for representing pids; returns -1 if unsuccessful, 1 if successful.
 
 ```c
-int allocate_ pid (void)
+int allocate_pid (void)
 ```
 - Allocates and returns a pid; returns -1 if unable to allocate a pid (all pids are in use) 
 
 ```c
-void release_ pid (int pid)
+void release_pid (int pid)
 ```
 - Releases a pid 
 
